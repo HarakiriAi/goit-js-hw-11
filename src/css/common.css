@@ -105,3 +105,12 @@ body{
     background-color: rgba(108, 140, 255, 1);
 }
 
+.loader {
+    display: none;
+}
+
+.loader.visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
